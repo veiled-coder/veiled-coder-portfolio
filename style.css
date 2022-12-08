@@ -4,6 +4,9 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 :root {
   --primary--color: #727aff;
@@ -65,7 +68,7 @@ body {
   text-align: center;
 }
 main {
-  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  background: linear-gradient(120deg, #f8fbfc 0%, #bee0eb 100%);
   padding: 2% 0;
 }
 
@@ -194,7 +197,15 @@ main {
     width: 100%;
     border-radius: 1rem;
   }
-  .lauch{
+  .lauch {
     font-size: 1rem;
+  }
+  #mycontact {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  .about--section__p {
+    font-size: 1rem;
+    text-align: center;
   }
 }
