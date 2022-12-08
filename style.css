@@ -3,10 +3,12 @@ body {
   width: 100%;
   box-sizing: border-box;
   padding: 0;
+  padding-top: 5rem;
   margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 :root {
   --primary--color: #727aff;
@@ -33,14 +35,7 @@ nav {
   font-size: 1.5rem;
   
 }
-nav li .nav-link ,nav a {
-  color: black;
-}
-nav button span {
-  color: red;
-  z-index: 3;
-  border: 3px solid saddlebrown;
-}
+
 .btns {
   display: flex;
   gap: 1rem;
@@ -99,7 +94,7 @@ main {
   text-decoration: none;
   border-radius: 5px;
   font-size: 1.5rem;
-  /* margin-top: .1rem; */
+
   display: inline-block;
 }
 /* .....................CONTACT PAGE STYLE .....................*/
