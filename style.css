@@ -19,6 +19,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .header-content {
   width: 60rem;
   max-width: 90%;
@@ -26,6 +27,19 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+nav {
+  background: linear-gradient(120deg, #f8fbfc 0%, #bee0eb 100%);
+  font-size: 1.5rem;
+  
+}
+nav li .nav-link ,nav a {
+  color: black;
+}
+nav button span {
+  color: red;
+  z-index: 3;
+  border: 3px solid saddlebrown;
 }
 .btns {
   display: flex;
@@ -72,22 +86,6 @@ main {
   padding: 2% 0;
 }
 
-.img-container img {
-  height: 100%;
-  width: 100%;
-  border-radius: 2rem;
-}
-.img-container {
-  object-fit: cover;
-}
-
-.homepage-grid div {
-  height: 20rem;
-}
-.img-container img {
-  width: 100%;
-  height: 100%;
-}
 .container h3 {
   color: olive;
   font-size: 2rem;
@@ -135,6 +133,7 @@ main {
   border-radius: 5px;
   padding: 1rem;
 }
+
 .contactMe {
   font-size: 4rem;
 }
@@ -144,7 +143,7 @@ main {
   align-items: center;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 992px) {
   .about--boxes {
     flex-direction: column;
   }
@@ -157,8 +156,7 @@ main {
   .btns a {
     font-size: 1rem;
   }
-}
-@media (max-width: 576px) {
+
   .box1 {
     order: 1;
   }
@@ -189,14 +187,7 @@ main {
   .container h3 {
     font-size: 1.5rem;
   }
-  .homepage-grid div {
-    height: 15rem;
-  }
-  .img-container img {
-    height: 100%;
-    width: 100%;
-    border-radius: 1rem;
-  }
+
   .lauch {
     font-size: 1rem;
   }

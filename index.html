@@ -23,9 +23,9 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="index.html">VEILED-CODER</a>
+            <a class="navbar-brand" href="index.html">VEILED-CODER</a> 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -44,36 +44,83 @@
 
                 </ul>
             </div>
+        </div><nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg  fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">VEILED-CODER</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon navbar-light"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/info.html">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/info.html#mycontact">Contact me</a>
+                    </li>
+                  
+                </ul>
+            </div>
         </div>
     </nav>
-
+    
     <section class="header container">
         <div class="header-content">
-            <p class="hi">👋 Hi, I am</p>
+            <p class="hi fs-1">👋 Hi, I am</p>
             <h1> Rahmat Abdulfattah</h1>
             <p class="base">🇳🇬 A Front-end developer, based in Nigeria</p>
             <div class="btns">
-                <a class="contact" href="./pages/info.html#mycontact">Contact Me</a>
-                <a class="about" href="./pages/info.html#aboutme">About Me</a>
+                <a class="contact  rounded" href="./pages/info.html#mycontact">Contact Me</a>
+                <a class="about  rounded" href="./pages/info.html#aboutme">About Me</a>
             </div>
         </div>
     </section>
     <main class="container d-grid  ">
-        <div class="row homepage-grid gy-5">
-            <div class="col-sm-6 img-container g-col-4 box1">
-                <img src="./images/linktreemockup.png" />
+        <div class="row homepage-grid g-5">
+            <div class="col-md-6 img-container g-col-4 box1">
+                <img src="./images/linktreemockup.png" class="img-fluid p-2 shadow rounded"/>
 
             </div>
-            <div class="col-sm-6  box2">
+            <div class="col-md-6  box2">
                 <h3>LINTREE WEB CLONE</h3>
                 <p>A clone of lintree web app built with
                     react.js framework.It uses the hooks system
                     for state management in the form validation
                     and react-router dom for contact page navigation
                 </p>
-                <a class="lauch" href="https://linktree-cloned.netlify.app" target="_blank">Lauch App</a>
+                <a class="lauch" href="https://linktree-cloned.netlify.app" class="p-2 shadow rounded" target="_blank">Lauch App</a>
             </div>
-            <div class="col-sm-6 box3">
+            <div class="col-md-6 box3">
                 <h3>CALCULATOR APP</h3>
                 <p>A calculator web app with three themes.It can
                     make simple and complex calculations including successive calculations.
@@ -81,15 +128,15 @@
                 </p>
                 <a class="lauch" href="https://calculator-mainapp.netlify.app" target="_blank">Lauch App</a>
             </div>
-            <div class="col-sm-6 img-container box4 ">
-                <img src="./images/calcmockup.png" />
+            <div class="col-md-6 img-container box4 ">
+                <img src="./images/calcmockup.png" class="img-fluid p-2 shadow rounded" />
 
             </div>
-            <div class="col-sm-6 img-container box5">
-                <img src="./images/mockupweather.png" />
+            <div class="col-md-6 img-container box5">
+                <img src="./images/mockupweather.png" class="img-fluid p-2 shadow rounded" />
 
             </div>
-            <div class="col-sm-6 box6">
+            <div class="col-md-6 box6">
                 <h3>LINTREE WEB CLONE</h3>
                 <p>A weather app with 5-day weather prediction functionality.Users can also
                     see timezone of the city searched for. It has two themes (light and dark)and
