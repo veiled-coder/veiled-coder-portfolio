@@ -1,3 +1,14 @@
+:root {
+  --primary--color: #727aff;
+  --secondary--color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --olive: olive;
+  --blue-bg: linear-gradient(120deg, #f8fbfc 0%, #bee0eb 100%);
+  --green: green;
+  --light-green: #c0e2d1;
+  --brown: #875961;
+  --nunito: "Nunito Sans", sans-serif;
+}
 body {
   min-height: 100vh;
   width: 100%;
@@ -9,11 +20,7 @@ body {
   flex-direction: column;
   align-items: center;
 
-}
-:root {
-  --primary--color: #727aff;
-  --secondary--color: #f5f2fe;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+ 
 }
 .header {
   width: 100%;
@@ -33,7 +40,6 @@ body {
 nav {
   background: linear-gradient(120deg, #f8fbfc 0%, #bee0eb 100%);
   font-size: 1.5rem;
-  
 }
 
 .btns {
@@ -77,25 +83,49 @@ nav {
   text-align: center;
 }
 main {
-  background: linear-gradient(120deg, #f8fbfc 0%, #bee0eb 100%);
+  background: var(--blue-bg);
   padding: 2% 0;
+  font-family: var(--nunito);
 }
 
 .container h3 {
-  color: olive;
+  color: var(--brown);
   font-size: 2rem;
+  font-weight: bold;
+  letter-spacing:.1rem;
 }
 .container p {
   font-size: 1.5rem;
 }
 .lauch {
   padding: 1em 1.5rem;
-  border: 1px solid green;
+  border: 1px solid var(--green);
   text-decoration: none;
   border-radius: 5px;
   font-size: 1.5rem;
 
   display: inline-block;
+  color: #875961;
+}
+/* .....................FOOTER AND ENQUIRY STYLE .....................*/
+.inquiry-section {
+  background: var(--light-green);
+  margin: 3rem 0;
+  font-family: var(--nunito);
+}
+.inquiry-section .inquiry {
+  font-size: 4.8rem;
+}
+.inquiry-section .talk {
+  text-decoration: none;
+  font-size: 1.5rem;
+
+  color: black;
+
+  background: #cbe6ef;
+}
+.check-project{
+  width: 75%;
 }
 /* .....................CONTACT PAGE STYLE .....................*/
 .about--section {
@@ -193,5 +223,19 @@ main {
   .about--section__p {
     font-size: 1rem;
     text-align: center;
+  }
+  .inquiry-section .inquiry {
+    font-size: 3rem;
+  }
+  .check-project{
+    width: 100%;
+  }
+}
+@media (max-width: 772px) {
+  .inquiry-section .inquiry {
+    font-size: 2.5rem;
+  }
+  .inquiry-section .talk {
+    font-size: 1.2rem;
   }
 }
