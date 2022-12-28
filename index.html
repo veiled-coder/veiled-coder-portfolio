@@ -38,10 +38,10 @@
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/info.html">About me</a>
+                        <a class="nav-link" href="./pages/about.html">About me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/pages/info.html#mycontact">Contact me</a>
+                        <a class="nav-link" href="/pages/about.html#contact-container-id">Contact me</a>
                     </li>
 
                 </ul>
@@ -49,17 +49,18 @@
         </div>
     </nav>
 
-    <section class="header container">
+    <header class="header header-container">
         <div class="header-content">
             <p class="hi fs-1">👋 Hi, I am</p>
             <h1> Rahmat Abdulfattah</h1>
             <p class="base">🇳🇬 A Front-end developer, based in Nigeria</p>
-            <div class="btns">
-                <a class="contact  rounded" href="./pages/info.html#mycontact">Contact Me</a>
-                <a class="about  rounded" href="./pages/info.html#aboutme">About Me</a>
+            <div class="header-contact-btn-container">
+                <a class="header-contact-btn  header-btns rounded" href="#footer-contact-container-id">Contact
+                    Me</a>
+                <a class="header-resume-btn header-btns rounded" href="./pages/info.html#aboutme">Download resume</a>
             </div>
         </div>
-    </section>
+    </header>
     <main class="container d-grid  ">
         <div class="row homepage-grid g-5">
             <div class="col-md-6 img-container g-col-4 box1">
@@ -129,7 +130,7 @@
                 <p>💻📱Mobile and Desktop responsive</p>
                 <p>⏭️Context Api to avoid prop drilling</p>
                 <p>↪️Hooks for state management (harmburger menu and modal pop-up)</p>
-                 <div class=" check-project d-flex justify-content-between align-items-center ">
+                <div class=" check-project d-flex justify-content-between align-items-center ">
 
                     <a class="lauch" href="https://metabnb-clone.netlify.app" target=" _blank"
                         title="lauch weather app">Lauch App</a>
@@ -138,7 +139,7 @@
                 </div>
             </div>
             <div class="col-md-6 img-container box8">
-                <img src="./images/metabnbMockup.png" alt="meta bnb website  mockup"
+                <img src="./images/metabnb-mockup.png" alt="meta bnb website  mockup"
                     class="img-fluid p-2 shadow rounded" />
 
             </div>
@@ -152,10 +153,23 @@
             <p class="collab">Let’s work together and i will help you by all my best</p>
         </div>
         <a href="https://bit.ly/veiled-coder" target="blank"
-            class="text-align-center talk p-3  py-md-4 px-md-5 rounded shadow">
+            class="text-align-center let-talk p-3  py-md-4 px-md-5 rounded shadow">
             Let's talk here
         </a>
     </section>
+    <footer id="footer-contact-container-id" class="contact-container footer-contact-container">
+        <a class="contact-container_email" href=" mailto:omobowalerohma1998@gmail.com"
+            target="_blank">📬omobowalerohma1998@gmail.com</a>
+        <div class="contact-container_icons-container">
+
+            <a href="https://bit.ly/veiled-coder" target="_blank"><i
+                    class="contact-container_icon contact-container_whatsapp-icon fa-brands fa-square-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/rahmat-abdulfattah-2322531ab/" target="_blank"><i
+                    class="contact-container_icon contact-container_linkedin-icon fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/rohmaabdulfatt1" target="_blank"><i
+                    class="contact-container_icon contact-container_twitter-icon fa-brands fa-square-twitter"></i></a>
+        </div>
+    </footer>
 </body>
 
 </html>
