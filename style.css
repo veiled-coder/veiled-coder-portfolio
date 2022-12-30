@@ -11,7 +11,7 @@
 }
 body {
   min-height: 100vh;
-  width: 100%;
+  max-width: 100%;
   box-sizing: border-box;
   padding: 0;
   padding-top: 5rem;
@@ -19,6 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
 nav {
   background: linear-gradient(120deg, #f8fbfc 0%, #bee0eb 100%);
