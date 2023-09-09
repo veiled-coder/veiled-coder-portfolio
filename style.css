@@ -214,28 +214,34 @@ a {
     order: 2;
   }
   .box3 {
-    order: 4;
-  }
-  .box4 {
     order: 3;
   }
-  .box5 {
-    order: 5;
+  .box4 {
+    order: 4;
   }
-  .box6 {
+  .box5 {
     order: 6;
   }
-  .box7 {
-    order: 8;
+  .box6 {
+    order: 5;
   }
-  .box8 {
+  .box7 {
     order: 7;
   }
+  .box8 {
+    order: 8;
+  }
   .box9 {
-    order: 9;
+    order: 10;
   }
   .box10 {
-    order: 10;
+    order: 9;
+  }
+  .box11{
+    order: 11;
+  }
+  .box12{
+    order: 12;
   }
   .header p {
     font-size: 1rem;
